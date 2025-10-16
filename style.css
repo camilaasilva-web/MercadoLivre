@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #FEE600;
+}
+.navbar1{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+}
+.navbar1 img{
+    height: 30px;
+}
+
+.barra_pesquisa{
+    background-color: white;
+    border-radius: 6px;
+    padding: 0px;
+    margin: 0px 100px;
+    align-items: center;
+}
+.barra_pesquisa input{ 
+    width: 510px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    padding-left: 10px;
+}
+.barra_pesquisa img{
+    height: 15px;
+    padding: 0px 5px;
+    align-items: center;
+    margin-top: 8px;
+}
+
+
+
+.navbar2{
+    margin-left: 423px;
+    display: flex;
+}
+.navbar2 ul{
+    display: flex;
+    list-style-type: none; 
+}
+
+.navbar2 li{
+    padding: 10px 5px;
+}
+.navbar2 li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.banner{
+    position: relative;
+}
+.banner_img{
+    width: 100vw;
+}
+.dos_quadrados{
+    position: absolute;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    top: 0;
+    margin-top: 310px;
+    
+}
+.quadrado{
+    padding: 10px 0px;
+    border-radius: 10px;
+    width: 11%;
+    border:  lightslategray;
+    background-color: white;
+    margin: 1px;
+}
+.quadrado img{
+    height: 80px;
+    margin: 10px 0px;
+}
+.quadrado h3{
+    font-size: 15px;
+}
+.quadrado button{
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    color: rgb(31, 109, 212);
+}
+.quadrado p{
+    margin: 0px 4px;
+}
+.quadrado button:hover{
+    background-color: rgba(31, 109, 212, 0.184);
+}

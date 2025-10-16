@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #FEE600;
+}
+.navbar1{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+}
+.navbar1 img{
+    height: 30px;
+}
+
+.barra_pesquisa{
+    background-color: white;
+    border-radius: 6px;
+    padding: 0px;
+    margin: 0px 100px;
+    align-items: center;
+}
+.barra_pesquisa input{ 
+    width: 510px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    padding-left: 10px;
+}
+.barra_pesquisa img{
+    height: 15px;
+    padding: 0px 5px;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.navbar2{
+    margin-left: 423px;
+    display: flex;
+}
+.navbar2 ul{
+    display: flex;
+    list-style-type: none; 
+}
+.navbar2 li{
+    padding: 10px 5px;
+}
+.navbar2 li a{
+    text-decoration: none;
+    color: black;
+}
+
+.banner{
+    position: relative;
+}
+.banner_img{
+    width: 100vw;
+}
+
+.bloco{
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 200px;
+    flex-wrap: wrap;
+}
+.caixa{
+    /* height: 250px;
+    width: 200px; */
+    width: 300px;
+    background-color: white;
+    border: 1px rgb(209, 203, 203) solid;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    padding: 30px 20px;
+}
+
+.foto{
+    height: 250px;
+}
+
+.oferta{
+    padding: 5px 10px;
+    width: 105px;
+    background-color: rgb(7, 119, 210);
+    color: white;
+    border-radius: 5px;
+    text-align: justify;
+}
+.preco{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: justify;
+}
+.nome{
+    text-align: justify;
+}
+.chegar{
+    display: flex;
+    text-align: justify;
+}
+.chegar p{
+    font-size: 11px;
+    background-color: rgba(17, 210, 7, 0.47);
+    margin-right: 10px;
+    color: rgb(1, 105, 1);
+    padding: 5px;
+    border-radius: 5px;
+}
